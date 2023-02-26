@@ -1,0 +1,21 @@
+name: CustomEnchants
+version: ${project.version}
+main: com.rubixstudios.customenchants.CustomEnchants
+author: RubixStudios
+softdepend: [UHCF]
+commands:
+  checkEnchant:
+    description: Check enchants of current holding item
+    usage: /checkEnchant
+  ce:
+    description: Gives items
+    usage: /ce give
+  toggleGank:
+    description: Toggle gank mode
+    usage: /toggleGank
+  gank:
+    description: Use to change gank stage values
+    usage: /gank
+  repair:
+    description: Repair a item
+    usage: /repair
